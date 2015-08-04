@@ -14,6 +14,7 @@ import org.jetbrains.annotations.NotNull;
 
 import static com.intellij.openapi.compiler.CompilerMessageCategory.ERROR;
 import static com.intellij.openapi.roots.OrderRootType.getAllTypes;
+import static com.kisanhub.intellij.useful.rootPolicies.DoNothingNonNullPerOrderEntryRootPolicy.doNothingPerOrderEntryRootPolicy;
 import static java.lang.String.format;
 import static java.util.Locale.ENGLISH;
 
@@ -24,6 +25,12 @@ public final class OrderEntryValidatingRootPolicy extends NonNullPerOrderEntryRo
 	private static final String OrderEntrySubCategory = "OrderEntry";
 
 	private static final int OrderEntryLength = OrderEntry.class.getSimpleName().length();
+
+	@NotNull
+	private static final NonNullPerOrderEntryRootPolicy<ProjectValidationMessagesRecorder> convenientConstruction = doNothingPerOrderEntryRootPolicy();
+
+	@NotNull
+	public static final RootPolicy<ProjectValidationMessagesRecorder> OrderEntryValidatingRootPolicyInstance = new OrderEntryValidatingRootPolicy(convenientConstruction);
 
 	@NotNull
 	private final NonNullPerOrderEntryRootPolicy<ProjectValidationMessagesRecorder> visitorOnlyIfOrderEntryRootsAndFilesAreValid;
