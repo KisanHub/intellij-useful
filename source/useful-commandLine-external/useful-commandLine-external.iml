@@ -8,5 +8,6 @@
     <orderEntry type="jdk" jdkName="IntelliJ IDEA Community Edition IC-141.177.4" jdkType="IDEA JDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="useful" exported="" />
+    <orderEntry type="library" exported="" name="jopt-simple" level="project" />
   </component>
 </module>
