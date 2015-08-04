@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <settings default="intellij-useful">
+    <module2copyright>
+      <element module="All" copyright="intellij-useful" />
+    </module2copyright>
+  </settings>
+</component>
