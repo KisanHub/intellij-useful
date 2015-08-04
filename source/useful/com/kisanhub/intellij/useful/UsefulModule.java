@@ -8,7 +8,7 @@ package com.kisanhub.intellij.useful;
 import com.intellij.openapi.module.Module;
 import com.intellij.openapi.roots.ModuleRootManager;
 import com.intellij.openapi.roots.RootPolicy;
-import com.kisanhub.intellij.useful.moduleOrderEntries.ProcessModuleOrder;
+import com.kisanhub.intellij.useful.rootPolicies.ProcessModuleOrder;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

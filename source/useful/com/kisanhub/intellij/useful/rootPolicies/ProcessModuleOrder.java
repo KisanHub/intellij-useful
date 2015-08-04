@@ -3,7 +3,7 @@
  * Copyright © 2015 The developers of intellij-useful. See the COPYRIGHT file in the top-level directory of this distribution and at https://raw.githubusercontent.com/KisanHub/intellij-useful/master/COPYRIGHT.
  */
 
-package com.kisanhub.intellij.useful.moduleOrderEntries;
+package com.kisanhub.intellij.useful.rootPolicies;
 
 import com.intellij.openapi.roots.RootPolicy;
 import org.jetbrains.annotations.NotNull;

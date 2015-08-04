@@ -29,7 +29,7 @@ import com.intellij.ui.content.ContentManager;
 import com.kisanhub.intellij.useful.inspection.ProblemRefElementHandler;
 import com.kisanhub.intellij.useful.inspection.UsefulGlobalInspectionContextImpl;
 import com.kisanhub.intellij.useful.inspection.inspectionToolPresentationFactories.UsefulInspectionToolPresentationFactory;
-import com.kisanhub.intellij.useful.moduleOrderEntries.ProcessModuleOrder;
+import com.kisanhub.intellij.useful.rootPolicies.ProcessModuleOrder;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
